@@ -1,0 +1,69 @@
+SEQUENCE ALIGNMENT TOOL — RESULTS
+Generated: 26-03-2026 21:24:44
+=================================================================
+
+Pair 1
+Sequence 1     : ATGCTAGCTAGCATGC
+Sequence 2     : ATGCAAGCTAGCATCC
+Type           : Global (Needleman-Wunsch)
+Score          : 26
+Identity       : 87.5%
+Similarity     : 100.0%
+Gaps           : 0
+Aligned seq 1  : ATGCTAGCTAGCATGC
+Match line     : ||||.|||||||||.|
+Aligned seq 2  : ATGCAAGCTAGCATCC
+-----------------------------------------------------------------
+
+Pair 2
+Sequence 1     : ATGCTAGCTAGCATGC
+Sequence 2     : ATGCAAGCTAGCATCC
+Type           : Local (Smith-Waterman)
+Score          : 26
+Identity       : 87.5%
+Similarity     : 87.5%
+Gaps           : 0
+Aligned seq 1  : ATGCTAGCTAGCATGC
+Match line     : ||||.|||||||||.|
+Aligned seq 2  : ATGCAAGCTAGCATCC
+-----------------------------------------------------------------
+
+Pair 3
+Sequence 1     : ATGCTTGAATTTGCCTAAGGC
+Sequence 2     : ATGCTTGAGTTTGCCTAAGGC
+Type           : Global (Needleman-Wunsch)
+Score          : 39
+Identity       : 95.24%
+Similarity     : 100.0%
+Gaps           : 0
+Aligned seq 1  : ATGCTTGAATTTGCCTAAGGC
+Match line     : ||||||||.||||||||||||
+Aligned seq 2  : ATGCTTGAGTTTGCCTAAGGC
+-----------------------------------------------------------------
+
+Pair 4
+Sequence 1     : ATGCATGCATGC
+Sequence 2     : GCTAGCTAGCTA
+Type           : Global (Needleman-Wunsch)
+Score          : 0
+Identity       : 42.86%
+Similarity     : 71.43%
+Gaps           : 4
+Aligned seq 1  : -AT-GCATGCATGC
+Match line     :  .| ||..|| | .
+Aligned seq 2  : GCTAGCTAGC-T-A
+-----------------------------------------------------------------
+
+Pair 5
+Sequence 1     : ATGCATGCATGC
+Sequence 2     : GCTAGCTAGCTA
+Type           : Local (Smith-Waterman)
+Score          : 8
+Identity       : 60.0%
+Similarity     : 60.0%
+Gaps           : 0
+Aligned seq 1  : GCATGCATGC
+Match line     : ||..||..||
+Aligned seq 2  : GCTAGCTAGC
+-----------------------------------------------------------------
+
